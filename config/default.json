@@ -1,0 +1,14 @@
+{
+  "db": {
+    "dialect": "mysql",
+    "name": "sample_db_for_sequelize",
+    "username": "root",
+    "host": "localhost",
+    "password": "password",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 10000
+    }
+  }
+}

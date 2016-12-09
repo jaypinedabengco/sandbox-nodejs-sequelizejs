@@ -1,0 +1,23 @@
+{
+  "name": "sandbox-nodejs-sequelizejs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "auto-create-models": "sh ./scripts/auto-create-models.sh"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "config": "^1.24.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "mysql": "2.12.0",
+    "promise": "7.1.1",
+    "sequelize": "3.27.0",
+    "serve-favicon": "~2.3.0",
+    "tedious": "1.14.0"
+  }
+}
